@@ -1,0 +1,13 @@
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\bin\Release\WpfTesterApp.exe.config
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\bin\Release\WpfTesterApp.exe
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\bin\Release\WpfTesterApp.pdb
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Release\MainWindow.g.cs
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Release\App.g.cs
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Release\WpfTesterApp_MarkupCompile.cache
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Release\WpfTesterApp_MarkupCompile.lref
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Release\MainWindow.baml
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Release\WpfTesterApp.g.resources
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Release\WpfTesterApp.Properties.Resources.resources
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Release\XamlViewer.csproj.GenerateResource.Cache
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Release\WpfTesterApp.exe
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Release\WpfTesterApp.pdb

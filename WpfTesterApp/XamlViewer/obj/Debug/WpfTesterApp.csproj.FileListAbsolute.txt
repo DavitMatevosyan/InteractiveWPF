@@ -1,0 +1,14 @@
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\bin\Debug\WpfTesterApp.exe.config
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\bin\Debug\WpfTesterApp.exe
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\bin\Debug\WpfTesterApp.pdb
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Debug\WpfTesterApp.csprojResolveAssemblyReference.cache
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Debug\MainWindow.g.cs
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Debug\App.g.cs
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Debug\WpfTesterApp_MarkupCompile.cache
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Debug\WpfTesterApp_MarkupCompile.lref
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Debug\MainWindow.baml
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Debug\WpfTesterApp.g.resources
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Debug\WpfTesterApp.Properties.Resources.resources
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Debug\WpfTesterApp.csproj.GenerateResource.Cache
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Debug\WpfTesterApp.exe
+E:\BeforeGithub\GitHubRepo\WebBrowser\WpfTesterApp\WpfTesterApp\obj\Debug\WpfTesterApp.pdb
