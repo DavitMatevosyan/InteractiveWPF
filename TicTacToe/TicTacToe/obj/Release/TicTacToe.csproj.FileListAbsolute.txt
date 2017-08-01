@@ -1,0 +1,13 @@
+E:\Github\GitHubRepo\TicTacToe\TicTacToe\bin\Release\TicTacToe.exe.config
+E:\Github\GitHubRepo\TicTacToe\TicTacToe\bin\Release\TicTacToe.exe
+E:\Github\GitHubRepo\TicTacToe\TicTacToe\bin\Release\TicTacToe.pdb
+E:\Github\GitHubRepo\TicTacToe\TicTacToe\obj\Release\MainWindow.g.cs
+E:\Github\GitHubRepo\TicTacToe\TicTacToe\obj\Release\App.g.cs
+E:\Github\GitHubRepo\TicTacToe\TicTacToe\obj\Release\TicTacToe_MarkupCompile.cache
+E:\Github\GitHubRepo\TicTacToe\TicTacToe\obj\Release\TicTacToe_MarkupCompile.lref
+E:\Github\GitHubRepo\TicTacToe\TicTacToe\obj\Release\MainWindow.baml
+E:\Github\GitHubRepo\TicTacToe\TicTacToe\obj\Release\TicTacToe.g.resources
+E:\Github\GitHubRepo\TicTacToe\TicTacToe\obj\Release\TicTacToe.Properties.Resources.resources
+E:\Github\GitHubRepo\TicTacToe\TicTacToe\obj\Release\TicTacToe.csproj.GenerateResource.Cache
+E:\Github\GitHubRepo\TicTacToe\TicTacToe\obj\Release\TicTacToe.exe
+E:\Github\GitHubRepo\TicTacToe\TicTacToe\obj\Release\TicTacToe.pdb
