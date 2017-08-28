@@ -84,19 +84,19 @@
             this.MenuAbout,
             this.MenuExit});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(176, 80);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(120, 52);
             // 
             // MenuAbout
             // 
             this.MenuAbout.Name = "MenuAbout";
-            this.MenuAbout.Size = new System.Drawing.Size(175, 24);
+            this.MenuAbout.Size = new System.Drawing.Size(119, 24);
             this.MenuAbout.Text = "About";
             this.MenuAbout.Click += new System.EventHandler(this.MenuAbout_Click);
             // 
             // MenuExit
             // 
             this.MenuExit.Name = "MenuExit";
-            this.MenuExit.Size = new System.Drawing.Size(175, 24);
+            this.MenuExit.Size = new System.Drawing.Size(119, 24);
             this.MenuExit.Text = "Exit";
             this.MenuExit.Click += new System.EventHandler(this.MenuExit_Click);
             // 
@@ -120,9 +120,10 @@
             this.Name = "window";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Options";
+            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.window_FormClosing);
             this.Load += new System.EventHandler(this.window_Load);
-            this.Paint += new System.Windows.Forms.PaintEventHandler(this.window_Paint);
+            this.Enter += new System.EventHandler(this.window_Enter);
             this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();

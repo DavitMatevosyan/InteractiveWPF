@@ -16,10 +16,6 @@ namespace clipboard1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            window form = new window();
-            form.WindowState = FormWindowState.Minimized;
-            form.ShowInTaskbar = false;
-
             Application.Run(new window());
         }
     }

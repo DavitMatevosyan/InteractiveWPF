@@ -37,16 +37,37 @@ namespace clipboard1
 
         private void btnClose_Click(object sender, EventArgs e)
         {
-            int i=2;
-            if(int.TryParse(eCount.Text, out i))
+            int i = 2;
+            if (int.TryParse(eCount.Text, out i))
             {
                 if ((i > 2) && (i < 15))
                 {
                     cpCount = i;
                 }
             }
+
+            SaveLastFew();
+
             Hide();
             ShowInTaskbar = false;
+        }
+
+        private void SaveLastFew()
+        {
+            List<string> temp = new List<string>();
+
+            int j = 1;
+            foreach (var item in data)
+            {
+                j++;
+                temp.Add(item);
+                if (j == cpCount)
+                {
+                    data.Clear();
+                    data.AddRange(temp);
+                    return;
+                }
+            }
         }
 
         private void MenuExit_Click(object sender, EventArgs e)
@@ -74,6 +95,8 @@ namespace clipboard1
         private void notifyIcon1_DoubleClick(object sender, EventArgs e)
         {
             Show();
+            ShowInTaskbar = true;
+            Focus();
         }
 
         private void window_Load(object sender, EventArgs e)
@@ -96,11 +119,16 @@ namespace clipboard1
                 }
 
                 SetForegroundWindow(new HandleRef(this, this.Handle));
-                int x = MousePosition.X - 10;
+                int x = MousePosition.X + 10;
                 int y = MousePosition.Y - 40;
                 contextMenuStrip2.Show(x, y);
 
             }
+        }
+
+        private void window_Enter(object sender, EventArgs e)
+        {
+            eCount.Text = cpCount.ToString();
         }
     }
 }
