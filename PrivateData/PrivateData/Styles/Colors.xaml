@@ -1,0 +1,22 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:PrivateData.Styles">
+
+    <Color x:Key="BrightGreen">#FFA0FF9D</Color>
+    <SolidColorBrush x:Key="BrightGreenBrush" Color="{StaticResource  BrightGreen}" />
+
+    <Color x:Key="DarkGreen">#000300</Color>
+    <SolidColorBrush x:Key="DarkGreenBrush" Color="{StaticResource DarkBlue}" />
+
+    <LinearGradientBrush x:Key="BrightToDarkGreenBrush" StartPoint="1 0" EndPoint="1 1">
+        <GradientStop Color="{StaticResource  BrightGreen}" Offset="0.25" />
+        <GradientStop Color="{StaticResource  DarkGreen}" Offset="1"/>
+    </LinearGradientBrush>
+
+    <Color x:Key="UsedBlue">#FF7EA0A9</Color>
+    <SolidColorBrush x:Key="UsedBlueBrush" Color="{StaticResource UsedBlue}" />
+
+    <Color x:Key="WhiteishGreen">#FFE4FFE2</Color>
+    <SolidColorBrush x:Key="WhiteishGreenBrush" Color="{StaticResource WhiteishGreen}" />
+
+</ResourceDictionary>

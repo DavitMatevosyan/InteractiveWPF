@@ -1,0 +1,89 @@
+﻿<Window x:Class="PrivateData.Windows.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PrivateData"
+        mc:Ignorable="d"
+        WindowStyle="None" AllowsTransparency="True" WindowStartupLocation="CenterScreen" 
+        ResizeMode="CanMinimize"
+        Title="LoginWindow" Height="300" Width="300" >
+
+    <Window.Resources>
+
+    </Window.Resources>
+
+
+    <Grid>
+        <!-- Dividing the Header and the main part of the Program -->
+        <Grid.RowDefinitions>
+            <!-- Header -->
+            <RowDefinition Height="28" />
+            <!-- Main Part -->
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <!-- Top side of the Window -->
+        <Grid Grid.Row="0" VerticalAlignment="Top" Height="28" Background="{StaticResource BrightGreenBrush}">
+            <!-- Grid Column Definitions -->
+            <Grid.ColumnDefinitions>
+                <!-- Icon -->
+                <ColumnDefinition Width="30"/>
+                <!-- Title -->
+                <ColumnDefinition Width="*"/>
+                <!-- Close Button -->
+                <ColumnDefinition Width="30" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Title -->
+            <Label Grid.Column="1" Content="Welcome"  Style="{StaticResource TitleLabel}"/>
+            <!-- Close Button -->
+            <Button Grid.Column="2" Style="{StaticResource  CloseButton}" Margin="5 0 5 0" Click="CloseButtonClick" />
+            <!-- Icon -->
+            <Image Source="/Images/Login-icon.png" Margin="2" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+        <!-- Global Frame -->
+        <Frame Grid.Row="1" BorderBrush="{StaticResource BrightToDarkGreenBrush}" BorderThickness="5" />
+
+
+        <!-- Main part of the window -->
+        <Grid Grid.Row="1" Margin="4" Background="{StaticResource WhiteishGreenBrush}" >
+            <Frame Grid.RowSpan="5" BorderThickness="2" BorderBrush="{StaticResource  UsedBlueBrush}"/>
+
+
+            <!-- Login -->
+            <StackPanel Grid.Row="1" Orientation="Horizontal">
+                <Label Content="Your Login:" VerticalAlignment="Center" Margin="50 0 0 0" />
+                <TextBox VerticalAlignment="Center" Margin="20 0 0 0" Width="100" />
+            </StackPanel>
+
+            <!-- Password Box-->
+            <StackPanel Grid.Row="2" Orientation="Horizontal">
+                <Label Content="Your Password:" VerticalAlignment="Center" Margin="40 0 0 0" />
+                <PasswordBox VerticalAlignment="Center" Margin="10 0 0 0" Width="100" />
+            </StackPanel>
+
+            <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button Content="Enter" Width="100" Height="25" Style="{StaticResource  LoginButton}" />
+            </StackPanel>
+            
+            <!-- About and creating account-->
+            <StackPanel Grid.Row="4" Orientation="Vertical">
+                <Button Content="About"  
+                        Margin="245 6 5 0" Style="{StaticResource Label-Button}" />
+                <Button  Content="Don't Have an Account?"  
+                        Margin="175 7 5 0" Style="{StaticResource Label-Button}" Click="CreateAccountbtn"/>
+            </StackPanel>
+
+            <!-- Rows for Login/Password/about and create account-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+        </Grid>
+    </Grid>
+</Window>

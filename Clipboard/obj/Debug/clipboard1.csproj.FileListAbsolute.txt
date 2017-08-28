@@ -1,0 +1,10 @@
+E:\BeforeGithub\wcf\clipboard1\clipboard1\bin\Debug\clipboard1.exe.config
+E:\BeforeGithub\wcf\clipboard1\clipboard1\bin\Debug\clipboard1.exe
+E:\BeforeGithub\wcf\clipboard1\clipboard1\bin\Debug\clipboard1.pdb
+E:\BeforeGithub\wcf\clipboard1\clipboard1\obj\Debug\clipboard1.csprojResolveAssemblyReference.cache
+E:\BeforeGithub\wcf\clipboard1\clipboard1\obj\Debug\clipboard1.AboutBox.resources
+E:\BeforeGithub\wcf\clipboard1\clipboard1\obj\Debug\clipboard1.window.resources
+E:\BeforeGithub\wcf\clipboard1\clipboard1\obj\Debug\clipboard1.Properties.Resources.resources
+E:\BeforeGithub\wcf\clipboard1\clipboard1\obj\Debug\clipboard1.csproj.GenerateResource.Cache
+E:\BeforeGithub\wcf\clipboard1\clipboard1\obj\Debug\clipboard1.exe
+E:\BeforeGithub\wcf\clipboard1\clipboard1\obj\Debug\clipboard1.pdb

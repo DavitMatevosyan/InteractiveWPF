@@ -1,0 +1,10 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:PrivateData.Styles">
+
+    <FontFamily x:Key="HastroRegular">pack://application;,,,Fonts/#Hastro</FontFamily>
+    <FontFamily x:Key="HastroItalic">pack://application;,,,Fonts/#Hastro Italic</FontFamily>
+
+    
+
+</ResourceDictionary>
